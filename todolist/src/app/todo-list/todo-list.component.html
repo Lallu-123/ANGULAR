@@ -1,0 +1,10 @@
+<p>todo-list works!</p>
+
+<!-- todo-list.component.html -->
+<div class="task-list">
+    <h2>Tasks</h2>
+    <div *ngFor="let task of tasks" class="task-item">
+      <app-task-item [task]="task" (completed)="markAsCompleted($event)" (deleted)="deleteTask($event)"></app-task-item>
+    </div>
+  </div>
+  

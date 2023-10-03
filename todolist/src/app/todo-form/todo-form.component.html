@@ -1,0 +1,35 @@
+<p>todo-form works!</p>
+
+<!-- todo-form.component.html -->
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<div class="task-form">
+    <h2>Add New Task</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" [(ngModel)]="newTask.title" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" [(ngModel)]="newTask.description"></textarea>
+      </div>
+      <button type="submit">Add Task</button>
+    </form>
+  </div>
+  

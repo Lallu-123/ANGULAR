@@ -1,0 +1,38 @@
+/* todo-form.component.css */
+.task-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

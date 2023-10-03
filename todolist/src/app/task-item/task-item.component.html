@@ -1,0 +1,7 @@
+<!-- task-item.component.html -->
+<div class="task-item">
+    <input type="checkbox" [checked]="task.completed" (change)="onCompletedChange()">
+    <span [class.completed]="task.completed" (click)="editTask()">{{ task.title }}</span>
+    <button (click)="onDelete()">Delete</button>
+  </div>
+  
